@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57CEDB2425744ED6001EA653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CEDB2325744ED6001EA653 /* AppDelegate.swift */; };
+		57CEDB2625744ED6001EA653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CEDB2525744ED6001EA653 /* SceneDelegate.swift */; };
+		57CEDB2825744ED6001EA653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CEDB2725744ED6001EA653 /* ContentView.swift */; };
+		57CEDB2A25744ED6001EA653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CEDB2925744ED6001EA653 /* Assets.xcassets */; };
+		57CEDB2D25744ED7001EA653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CEDB2C25744ED7001EA653 /* Preview Assets.xcassets */; };
+		57CEDB3025744ED7001EA653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CEDB2E25744ED7001EA653 /* LaunchScreen.storyboard */; };
+		57CEDB3F25744EED001EA653 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CEDB3E25744EED001EA653 /* WidgetKit.framework */; };
+		57CEDB4125744EED001EA653 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CEDB4025744EED001EA653 /* SwiftUI.framework */; };
+		57CEDB4425744EED001EA653 /* clock_xristmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CEDB4325744EED001EA653 /* clock_xristmas.swift */; };
+		57CEDB4625744EEF001EA653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CEDB4525744EEF001EA653 /* Assets.xcassets */; };
+		57CEDB4A25744EEF001EA653 /* clock_xristmasExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 57CEDB3C25744EED001EA653 /* clock_xristmasExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CEDB4825744EEF001EA653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CEDB1825744ED5001EA653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CEDB3B25744EED001EA653;
+			remoteInfo = clock_xristmasExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57CEDB4E25744EEF001EA653 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				57CEDB4A25744EEF001EA653 /* clock_xristmasExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		57CEDB2025744ED6001EA653 /* xristmas_widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xristmas_widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CEDB2325744ED6001EA653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57CEDB2525744ED6001EA653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57CEDB2725744ED6001EA653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57CEDB2925744ED6001EA653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CEDB2C25744ED7001EA653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57CEDB2F25744ED7001EA653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57CEDB3125744ED7001EA653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CEDB3C25744EED001EA653 /* clock_xristmasExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = clock_xristmasExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CEDB3E25744EED001EA653 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		57CEDB4025744EED001EA653 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		57CEDB4325744EED001EA653 /* clock_xristmas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clock_xristmas.swift; sourceTree = "<group>"; };
+		57CEDB4525744EEF001EA653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CEDB4725744EEF001EA653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CEDB1D25744ED6001EA653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CEDB3925744EED001EA653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CEDB4125744EED001EA653 /* SwiftUI.framework in Frameworks */,
+				57CEDB3F25744EED001EA653 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57CEDB1725744ED5001EA653 = {
+			isa = PBXGroup;
+			children = (
+				57CEDB2225744ED6001EA653 /* xristmas_widget */,
+				57CEDB4225744EED001EA653 /* clock_xristmas */,
+				57CEDB3D25744EED001EA653 /* Frameworks */,
+				57CEDB2125744ED6001EA653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57CEDB2125744ED6001EA653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CEDB2025744ED6001EA653 /* xristmas_widget.app */,
+				57CEDB3C25744EED001EA653 /* clock_xristmasExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CEDB2225744ED6001EA653 /* xristmas_widget */ = {
+			isa = PBXGroup;
+			children = (
+				57CEDB2325744ED6001EA653 /* AppDelegate.swift */,
+				57CEDB2525744ED6001EA653 /* SceneDelegate.swift */,
+				57CEDB2725744ED6001EA653 /* ContentView.swift */,
+				57CEDB2925744ED6001EA653 /* Assets.xcassets */,
+				57CEDB2E25744ED7001EA653 /* LaunchScreen.storyboard */,
+				57CEDB3125744ED7001EA653 /* Info.plist */,
+				57CEDB2B25744ED7001EA653 /* Preview Content */,
+			);
+			path = xristmas_widget;
+			sourceTree = "<group>";
+		};
+		57CEDB2B25744ED7001EA653 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57CEDB2C25744ED7001EA653 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57CEDB3D25744EED001EA653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CEDB3E25744EED001EA653 /* WidgetKit.framework */,
+				57CEDB4025744EED001EA653 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57CEDB4225744EED001EA653 /* clock_xristmas */ = {
+			isa = PBXGroup;
+			children = (
+				57CEDB4325744EED001EA653 /* clock_xristmas.swift */,
+				57CEDB4525744EEF001EA653 /* Assets.xcassets */,
+				57CEDB4725744EEF001EA653 /* Info.plist */,
+			);
+			path = clock_xristmas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CEDB1F25744ED6001EA653 /* xristmas_widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CEDB3425744ED7001EA653 /* Build configuration list for PBXNativeTarget "xristmas_widget" */;
+			buildPhases = (
+				57CEDB1C25744ED6001EA653 /* Sources */,
+				57CEDB1D25744ED6001EA653 /* Frameworks */,
+				57CEDB1E25744ED6001EA653 /* Resources */,
+				57CEDB4E25744EEF001EA653 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CEDB4925744EEF001EA653 /* PBXTargetDependency */,
+			);
+			name = xristmas_widget;
+			productName = xristmas_widget;
+			productReference = 57CEDB2025744ED6001EA653 /* xristmas_widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CEDB3B25744EED001EA653 /* clock_xristmasExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CEDB4B25744EEF001EA653 /* Build configuration list for PBXNativeTarget "clock_xristmasExtension" */;
+			buildPhases = (
+				57CEDB3825744EED001EA653 /* Sources */,
+				57CEDB3925744EED001EA653 /* Frameworks */,
+				57CEDB3A25744EED001EA653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clock_xristmasExtension;
+			productName = clock_xristmasExtension;
+			productReference = 57CEDB3C25744EED001EA653 /* clock_xristmasExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CEDB1825744ED5001EA653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					57CEDB1F25744ED6001EA653 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					57CEDB3B25744EED001EA653 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 57CEDB1B25744ED5001EA653 /* Build configuration list for PBXProject "xristmas_widget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CEDB1725744ED5001EA653;
+			productRefGroup = 57CEDB2125744ED6001EA653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CEDB1F25744ED6001EA653 /* xristmas_widget */,
+				57CEDB3B25744EED001EA653 /* clock_xristmasExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CEDB1E25744ED6001EA653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CEDB3025744ED7001EA653 /* LaunchScreen.storyboard in Resources */,
+				57CEDB2D25744ED7001EA653 /* Preview Assets.xcassets in Resources */,
+				57CEDB2A25744ED6001EA653 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CEDB3A25744EED001EA653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CEDB4625744EEF001EA653 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CEDB1C25744ED6001EA653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CEDB2425744ED6001EA653 /* AppDelegate.swift in Sources */,
+				57CEDB2625744ED6001EA653 /* SceneDelegate.swift in Sources */,
+				57CEDB2825744ED6001EA653 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CEDB3825744EED001EA653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CEDB4425744EED001EA653 /* clock_xristmas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CEDB4925744EEF001EA653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CEDB3B25744EED001EA653 /* clock_xristmasExtension */;
+			targetProxy = 57CEDB4825744EEF001EA653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57CEDB2E25744ED7001EA653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CEDB2F25744ED7001EA653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CEDB3225744ED7001EA653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57CEDB3325744ED7001EA653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CEDB3525744ED7001EA653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"xristmas_widget/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UGG82HG32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = xristmas_widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem.xristmas-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57CEDB3625744ED7001EA653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"xristmas_widget/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UGG82HG32;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = xristmas_widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem.xristmas-widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57CEDB4C25744EEF001EA653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UGG82HG32;
+				INFOPLIST_FILE = clock_xristmas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem.xristmas-widget.clock-xristmas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57CEDB4D25744EEF001EA653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5UGG82HG32;
+				INFOPLIST_FILE = clock_xristmas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem.xristmas-widget.clock-xristmas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CEDB1B25744ED5001EA653 /* Build configuration list for PBXProject "xristmas_widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CEDB3225744ED7001EA653 /* Debug */,
+				57CEDB3325744ED7001EA653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CEDB3425744ED7001EA653 /* Build configuration list for PBXNativeTarget "xristmas_widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CEDB3525744ED7001EA653 /* Debug */,
+				57CEDB3625744ED7001EA653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CEDB4B25744EEF001EA653 /* Build configuration list for PBXNativeTarget "clock_xristmasExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CEDB4C25744EEF001EA653 /* Debug */,
+				57CEDB4D25744EEF001EA653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CEDB1825744ED5001EA653 /* Project object */;
+}
